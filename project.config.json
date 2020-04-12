@@ -24,12 +24,12 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.8.1",
+	"libVersion": "2.10.3",
 	"appid": "wxff80238a8f73ce31",
-	"projectname": "wx-study",
+	"projectname": "wx-cloud-study",
 	"miniprogramRoot": "miniprogram/",
 	"cloudfunctionRoot": "cloudfunctions/",
-	"cloudfunctionTemplateRoot": "",
+	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
 	"watchOptions": {
 		"ignore": []
 	},
@@ -64,9 +64,17 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide",
-					"query": ""
+					"name": "demo",
+					"pathName": "pages/demo/demo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "mulistCompo",
+					"pathName": "pages/musiclist/musiclist",
+					"query": "playlistId=2482210411",
+					"scene": null
 				}
 			]
 		}

@@ -1,0 +1,13 @@
+<!-- wx:key 的重要性 -->
+<block wx:for="{{array}}" wx:for-index="idx" wx:key="*this" wx:for-item="data">
+  <view><checkbox></checkbox>{{data}}</view>
+</block>
+<button bindtap="sort">arr随机排序</button>
+
+<block wx:for="{{arrObj}}" wx:key="id">
+  <view><checkbox></checkbox>{{item.name}}</view>
+</block>
+<button bindtap="sortObj">obj随机排序</button>
+
+<button bindtap="getMusicInfo">获取音乐信息</button>
+<button bindtap="getMovieInfo">获取电影信息</button>
